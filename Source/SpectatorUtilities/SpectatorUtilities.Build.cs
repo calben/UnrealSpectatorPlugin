@@ -1,5 +1,3 @@
-// Some copyright should be here...
-
 using UnrealBuildTool;
 
 public class SpectatorUtilities : ModuleRules
@@ -24,7 +22,6 @@ public class SpectatorUtilities : ModuleRules
             new string[]
             {
                 "Core",
-                "CaliberUI",
                 "UMG",
                 "WidgetStudioRuntime"
             }
