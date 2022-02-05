@@ -19,5 +19,7 @@ public:
 
     USpectatableComponent();
 
+    virtual void OnComponentDestroyed(bool bDestroyingHierarchy);
+
     virtual void BeginPlay() override;
 };
